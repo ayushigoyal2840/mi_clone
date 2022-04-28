@@ -1,20 +1,15 @@
 
 import './App.css';
-
+import PreNavbar from './components/PreNavbar';
 
 
 
 
 function App() {
   return (
-    <div className="App" style= {{
-      backgroundColor: "#cccc",
-      height: "100px",
-      color: 'yellow'
-}}>
-      <h1>hello</h1>
-      
-    </div>
+   <div>
+     <PreNavbar />
+   </div>
   );
 }
 
